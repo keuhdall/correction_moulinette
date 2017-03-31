@@ -23,7 +23,7 @@ echo "
 = Git history ==================================================================
 $> git -C $GITPATH log --pretty='%H - %an, %ad : %s'"
 git -C $GITPATH log --pretty='%H - %an, %ad : %s'
-rm -rf .git
+rm -rf $GITPATH/.git
 echo "
 = Collected files ==========================================
 $> ls -lAR $GITPATH"
